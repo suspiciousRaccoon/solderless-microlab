@@ -9,3 +9,4 @@ configobj==5.0.8
 multiprocessing-logging==0.3.4
 simple-pid==2.0.0
 waitress==3.0.2
+gpiod==2.2.2
