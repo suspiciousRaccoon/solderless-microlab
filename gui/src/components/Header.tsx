@@ -48,7 +48,8 @@ export function Header(props: {
               } else if (showBackButton) {
                 history.goBack()
               }
-            }}>
+            }}
+          >
             {showBackButton && <Icon name={`chevron left`} inverted={settings.darkMode} />}
           </Menu.Item>
 

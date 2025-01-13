@@ -26,7 +26,8 @@ export function RecipeDetails() {
         color="purple"
         onClick={() => {
           startRecipe(recipeName).then(data => history.push('/status'))
-        }}>
+        }}
+      >
         {t('start-reaction-button-text')}
       </Button>
     )
@@ -39,7 +40,8 @@ export function RecipeDetails() {
           if (window.confirm(t('confirm-delete-recipe'))) {
             deleteRecipe(recipeName).then(data => history.push('/recipes'))
           }
-        }}>
+        }}
+      >
         {t('delete-recipe-button-text')}
       </Button>
     )

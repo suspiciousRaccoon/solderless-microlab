@@ -80,7 +80,6 @@ export const StatusIcon = ({ icon }: { icon: string }) => {
     case 'temperature': // This should be deprecated for more precise icons
       iconImage = setUpHeating
       break
-
   }
 
   if (icon) {
