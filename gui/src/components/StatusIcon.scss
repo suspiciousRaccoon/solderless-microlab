@@ -1,16 +1,15 @@
 .status-icon-container {
-    display: inline-block;
-    width: 100%;
-    margin: 0 0 8px 0;
+  display: inline-block;
+  width: 100%;
+  margin: 0 0 8px 0;
 }
 
 .dark-mode .status-icon-container {
-    padding: 8px;
-    border-radius: 50%;
-    background-color: var(--medium-gray-transparent);
+  padding: 8px;
+  border-radius: 50%;
+  background-color: var(--medium-gray-transparent);
 }
 .status-icon {
-    max-width: 120px;
-    max-height: 80px;
+  max-width: 120px;
+  max-height: 80px;
 }
-

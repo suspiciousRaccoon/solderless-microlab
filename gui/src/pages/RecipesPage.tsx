@@ -59,7 +59,8 @@ export function RecipesPage() {
               color="purple"
               onClick={() => {
                 document.querySelector('.recipe-anchor-' + key)?.scrollIntoView()
-              }}>
+              }}
+            >
               {key}
             </Button>
           )
