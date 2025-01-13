@@ -23,5 +23,5 @@ jobs:
         uses: creyD/prettier_action@v4.3
         with:
           # This part is also where you can pass other options, for example:
-          prettier_options: --write app/**/*.{js,jsx,ts,tsx,html}
+          prettier_options: --write gui/**/*.{js,jsx,ts,tsx,html}
           only_changed: True
